@@ -165,7 +165,6 @@ const Users = () => {
     Cookies.remove("login");
     window.location.href = "/";
   };
-  if (Cookies.get("login")) {
     return (
       <div>
         <div>
@@ -789,7 +788,6 @@ const Users = () => {
         </MDBModal>
       </div>
     );
-  }
 };
 
 export default Users;
